@@ -1,0 +1,46 @@
+:root {
+    --border-rad: 65px;
+}
+
+body, html {
+    background-color: black;
+}
+
+.tani--device-wrapper {
+    width: 414px;
+    margin: 10px auto;
+    border-radius: var(--border-rad);
+
+    /* TODO: delete when unused */
+    height: 97.5vh;
+    background-color: white;
+}
+
+.tani--header {
+    height: 13%;
+    border-radius: 20px;
+
+    /* https://shadows.brumm.af/ */
+    box-shadow:
+            0px 0px 3.6px rgba(0, 0, 0, 0.07),
+            0px 0px 9.1px rgba(0, 0, 0, 0.046),
+            0px 0px 18.6px rgba(0, 0, 0, 0.033),
+            0px 0px 38.3px rgba(0, 0, 0, 0.024),
+            0px 0px 105px rgba(0, 0, 0, 0.014);
+}
+
+.tani--body {
+    height: 79%;
+}
+
+.tani--footer {
+    height: 8%;
+
+    /* https://shadows.brumm.af/ */
+    box-shadow:
+            0px 0px 3.6px rgba(0, 0, 0, 0.07),
+            0px 0px 9.1px rgba(0, 0, 0, 0.046),
+            0px 0px 18.6px rgba(0, 0, 0, 0.033),
+            0px 0px 38.3px rgba(0, 0, 0, 0.024),
+            0px 0px 105px rgba(0, 0, 0, 0.014);
+}
