@@ -12,12 +12,12 @@ body, html {
     border-radius: var(--border-rad);
 
     /* TODO: delete when unused */
-    height: 97.5vh;
+    height: 620px;
     background-color: white;
 }
 
 .tani--header {
-    height: 13%;
+    height: 15%;
     border-radius: 20px;
 
     /* https://shadows.brumm.af/ */
@@ -29,12 +29,55 @@ body, html {
             0px 0px 105px rgba(0, 0, 0, 0.014);
 }
 
+.tani--device-head {
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.tani--navbar {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0px 28px;
+
+    .tani--search-bar-wrapper {
+        display: flex;
+        align-items: center;
+
+        border: 1px solid gray;
+        border-radius: 20px;
+        height: 38px;
+
+        padding: 0px 4px;
+
+        .tani--search-bar-icon {
+            width: 45px;
+        }
+
+        input {
+            outline: none;
+            border: none;
+
+            width: 240px;
+        }
+    }
+}
+
+.tani--user-account {
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+
+    .tani--user-account-icon {
+    }
+}
+
 .tani--body {
-    height: 79%;
+    height: 75%;
 }
 
 .tani--footer {
-    height: 8%;
+    height: 10%;
 
     /* https://shadows.brumm.af/ */
     box-shadow:
