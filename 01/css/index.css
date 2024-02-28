@@ -7,7 +7,7 @@ body, html {
 }
 
 .tani--device-wrapper {
-    width: 414px;
+    width: 335px;
     margin: 10px auto;
     border-radius: var(--border-rad);
 
@@ -51,14 +51,14 @@ body, html {
         padding: 0px 4px;
 
         .tani--search-bar-icon {
-            width: 45px;
+            width: 35px;
         }
 
         input {
             outline: none;
             border: none;
 
-            width: 240px;
+            width: 170px;
         }
     }
 }
