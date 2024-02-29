@@ -80,6 +80,53 @@ body, html {
 
 .tani--body {
     height: 75%;
+
+    .tani--body-banner {
+        height: 30%;
+        background-color: blue;
+    }
+
+    .tani--body-contents {
+        height: 70%;
+
+        .tani--body-menu {
+            width: 85%;
+            height: 20%;
+
+            background-color: brown;
+            border-radius: 20px;
+
+            margin: 0px auto;
+            margin-top: -35px;
+            padding: 0px 15px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .tani--body-menu-wallet {
+                height: 100%;
+                width: 55%;
+
+                background-color: magenta;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .tani--body-menu-options {
+                height: 100%;
+                width: 45%;
+
+                background-color: purple;
+            }
+        }
+
+        .tani--body-main-content {
+            height: 90%;
+        }
+    }
 }
 
 .tani--footer {
