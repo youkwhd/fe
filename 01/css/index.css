@@ -44,6 +44,8 @@ body, html {
         display: flex;
         align-items: center;
 
+        background-color: #f7f7f7;
+
         border: 1px solid gray;
         border-radius: 20px;
         height: 38px;
@@ -51,10 +53,14 @@ body, html {
         padding: 0px 4px;
 
         .tani--search-bar-icon {
+            background-color: #f7f7f7;
             width: 35px;
         }
 
         input {
+            background-color: #f7f7f7;
+            color: #333;
+
             outline: none;
             border: none;
 
@@ -86,4 +92,15 @@ body, html {
             0px 0px 18.6px rgba(0, 0, 0, 0.033),
             0px 0px 38.3px rgba(0, 0, 0, 0.024),
             0px 0px 105px rgba(0, 0, 0, 0.014);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .tani--footer-wrap {
+        margin: 0px 5px;
+        width: 15%;
+        height: 70%;
+        background-color: red;
+    }
 }
